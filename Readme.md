@@ -30,10 +30,15 @@
 
 
 PidFile=/var/run/zabbix/zabbix_agentd.pid
+
 LogFile=/var/log/zabbix/zabbix_agentd.log
+
 LogFileSize=0
-# Server и ServerActive - адрес zabbix-server
+
+''Server и ServerActive - адрес zabbix-server''
+
 Server=188.92.106.140
+
 ServerActive=188.92.106.140
-Hostname=**Название, которое будет указано при добавлении хоста**на сервере
-# Include=/etc/zabbix/zabbix_agentd.d
+
+Hostname=**Название, которое будет указано при добавлении хоста на сервере**
